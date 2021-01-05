@@ -32,11 +32,13 @@ cd /home
 chown -R ts3 ts3
 
 #przechodzenie na uzytkownika ts3
+cd /home/ts3
 su ts3
 
 #nadawanie praw plikom
 chmod +x ts3server_startscript.sh
 chmod +x ts3server
+
 
 
 
